@@ -51,3 +51,19 @@ test('calculator divide "25 / 5"', () => {
 test('calculator multiply "3 x 3"', () => {
     expect(calculator.multiply(3, 3)).toBe(9);
 });
+
+// calculator
+
+const caesarCipher = functions2test.caesarCipher
+
+test('caesarCipher "xyz" shift of 3', () => {
+    expect(caesarCipher('xyz', 3)).toBe('abc');
+});
+
+test('caesarCipher "HeLLo" shift of 3', () => {
+    expect(caesarCipher('HeLLo', 3)).toBe('KhOOr');
+});
+
+test('caesarCipher "Hello, World!" shift of 3', () => {
+    expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
+});
