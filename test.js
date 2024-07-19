@@ -31,3 +31,23 @@ test('reverseString "hello"', () => {
 test('reverseString "test a space"', () => {
     expect(reverseString("test a space")).toBe("ecaps a tset");
 });
+
+// calculator
+
+const calculator = functions2test.calculator
+
+test('calculator add "1 + 9"', () => {
+    expect(calculator.add(1, 9)).toBe(10);
+});
+
+test('calculator subtract "5 - 2"', () => {
+    expect(calculator.subtract(5, 2)).toBe(3);
+});
+
+test('calculator divide "25 / 5"', () => {
+    expect(calculator.divide(25, 5)).toBe(5);
+});
+
+test('calculator multiply "3 x 3"', () => {
+    expect(calculator.multiply(3, 3)).toBe(9);
+});
