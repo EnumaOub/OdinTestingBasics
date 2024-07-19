@@ -52,7 +52,7 @@ test('calculator multiply "3 x 3"', () => {
     expect(calculator.multiply(3, 3)).toBe(9);
 });
 
-// calculator
+// caesarCipher
 
 const caesarCipher = functions2test.caesarCipher
 
@@ -66,4 +66,18 @@ test('caesarCipher "HeLLo" shift of 3', () => {
 
 test('caesarCipher "Hello, World!" shift of 3', () => {
     expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
+});
+
+// calculator
+
+const analyzeArray = functions2test.analyzeArray
+
+test('analyzeArray "[1,8,3,4,2,6]"', () => {
+    expect(analyzeArray([1,8,3,4,2,6]))
+    .toStrictEqual({
+        average: 4,
+        min: 1,
+        max: 8,
+        length: 6
+     });
 });

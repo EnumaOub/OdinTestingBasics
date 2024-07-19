@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1721423468913" clover="3.2.0">
-  <project timestamp="1721423468913" name="All files">
-    <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8" elements="35" coveredelements="35" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+<coverage generated="1721424118596" clover="3.2.0">
+  <project timestamp="1721424118596" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10" elements="40" coveredelements="40" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
     <file name="functions2test.js" path="/home/ray/Documents/Javascript/theodinproject (Tuto)/TestingBasics/functions2test.js">
-      <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
+      <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="4" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
@@ -23,6 +23,9 @@
       <line num="24" count="13" type="stmt"/>
       <line num="27" count="3" type="stmt"/>
       <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="5" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
